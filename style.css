@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+
+
+
+
+.top-section {
+    background-image: url(./images/figma1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+
+nav ul li a {
+    font-size: 14px;
+    color: #505f98;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.logo {
+    justify-self: center;
+   
+}
+
+.logo a {
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.btn {
+    justify-self: right;
+}
+
+.btn a {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px 60px;
+    color: #ffffff;
+    background-color: #111b47;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #505f98;
+    margin-bottom: 80px;
+}
+
+.hero-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-btn > .btn {
+    justify-self: left;
+}
+
+.hero-btn > .btn a {
+    text-decoration: none;
+}
+
+.btnNewBG a {
+    color: #091133;
+    background-color: transparent;
+    border: 1px solid #091133;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+
+
+
+.light-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+}
+
+.light-content-left h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color:#091133 ;
+}
+
+.light-content-left p {
+    color: #6f7cb2 ;
+}
+
+.light-content-left-bottom {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 80px;
+grid-column-gap: 20px ;
+}
+
+.lightCLB-left h3
+.lightCLB-right h3 {
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lightCLB-left p
+.lightCLB-right p {
+    color: #5d6970;
+    font-size: 12px;
+}
+
+
+
+
+.fast-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 160px;
+    padding: 100px 0;
+}
+
+.small-btn {
+    margin-top: 50px;
+}   
+
+.small-btn a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+.price {
+    padding: 200px 0;
+    text-align: center;
+    background-image: url();
+}
+
+.price h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #091133;
+}
+
+.price p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6f7cb2;
+    line-height: 26px;
+}
+
+.price-card h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #222f65;
+    margin-bottom: 0px;
+}
+
+.price-card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #37447e;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.price-card p {
+   margin-bottom: 15px; 
+}
+
+.price-btn {
+  margin: 0;  
+}
+
+.price-btn a {
+  padding: 10px 30px;  
+}
+
+
+
+
+.main-footer {
+   padding: 20px 0; 
+   background-color: #e7ecff;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+  border-top: 0;
+  border-bottom: 1px solid #cdd1d4;
+  margin: 20px 0;
+
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.social-icon {
+    justify-self: right;
+}
+
+.social-icon nav ul {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon nav ul li a {
+   padding: 10px; 
+   color: #b0b8bc;
+}
